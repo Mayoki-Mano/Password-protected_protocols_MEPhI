@@ -39,7 +39,7 @@ def generate_hashes(password_file, encoding, hash_func, total_hashes, output_fil
 
 if __name__ == "__main__":
     if len(sys.argv) != 6:
-        print("Usage: python3 gen <password_file> <encoding> <hash_function> <total_hashes> <output_file>")
+        print("Usage: python hash_generator.py <password_file> <encoding> <hash_function> <total_hashes> <output_file>")
         sys.exit(1)
 
     password_file = sys.argv[1]

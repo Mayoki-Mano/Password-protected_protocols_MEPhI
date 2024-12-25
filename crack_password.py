@@ -46,7 +46,7 @@ def process_chunk(chunk, hash_func, hash_list, results):
 
 def main():
     if len(sys.argv) != 5:
-        print("Usage: python3 crack <wordlist> <encoding> <hash_function> <hashlist>")
+        print("Usage: python crack_password.py <wordlist> <encoding> <hash_function> <hashlist>")
         sys.exit(1)
 
     wordlist_file = sys.argv[1]
